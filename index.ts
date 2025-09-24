@@ -9,4 +9,9 @@ type User = {
 
 const indentity = <Type> (value : Type) => value;
 
-const result = indentity<User>({name: "John", age: 30});
+const result = indentity<User>(
+    {
+        name: "John", 
+        age: 30
+    }
+);
